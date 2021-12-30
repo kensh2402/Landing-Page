@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .first {
@@ -86,19 +87,61 @@ body {
 .secondheader {
    font-size: 36px;
   font-weight: 900;
-  color: #1f2937  ;
+  color: #1f2937;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .containers {
    display: flex;
    justify-content: center;
    align-items: center;
+   gap: 50px;
+   
+}
+
+.container {
+   flex: 0 1 0;
    
 }
 
 .imagetwo {
-  height: 100px;
-  width: 100px;
-  border-color: #3882f6;
-  border: 5px;
+  height: 110px;
+  width: 150px;
+  border: 5px solid #3882f6;
+  border-radius: 5px;
+}
+
+.text {
+   color: #1f2937;
+}
+
+.third {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #e5e7eb;
+   margin-top: 100px;
+}
+
+.bodythird {
+   margin: 100px 400px 100px 400px;
+}
+
+.quote {
+   font-size: 36px;
+   color: #1f2937;
+   flex: 0 1 0;
+   font-style: italic;
+   font-weight: 100;
+}
+
+.author {
+   color: #1f2937;
+   font-weight: 900;
+   flex: 0 1 0;
+   justify-content: flex-end;
+   display: flex;
+   margin-right: 25px;
 }
