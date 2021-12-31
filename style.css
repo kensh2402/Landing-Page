@@ -64,7 +64,7 @@ body {
 
  }
 
- button {
+ .buttonone {
     font-weight: 800;
     border: none;
     color: #f9faf8;
@@ -144,4 +144,48 @@ body {
    justify-content: flex-end;
    display: flex;
    margin-right: 25px;
+}
+
+.fourth {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.mainsquare {
+   margin: 75px 0;
+   display: flex;
+   background-color: #3882f6;
+   height: 150px;
+   width: 800px;
+   border: none;
+   border-radius: 5px;
+   justify-content: center;
+   align-items: center;
+   color: #f9faf8;
+   gap: 100px;
+}
+
+.lefttitle {
+   font-weight: 800;
+}
+
+.buttontwo {
+   font-weight: 800;
+   color: #f9faf8;
+   border-radius: 4px;
+   background:#3882f6;
+   padding: 4px 24px;
+   border-color: #f9faf8;
+
+}
+
+.footer {
+   font-size: 18px;
+   color: #f9faf8;
+   background-color: #1f2937;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 40px 0;
 }
